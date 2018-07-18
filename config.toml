@@ -1,3 +1,23 @@
-baseURL = "http://example.org/"
+baseURL = "http://k8s-blackbeard.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+title = "Blackbeard"
+theme = "kraiklyn"
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[params]
+externalTitle = "Blackbeard documentation"
+sidebarColor = "blue"
+customCss = []
+
+[[menu.shortcuts]]
+name = "Kraiklyn on Github"
+url = "https://github.com/jsnjack/kraiklyn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "Hugo docs"
+url = "https://gohugo.io/documentation/"
+weight = 20
