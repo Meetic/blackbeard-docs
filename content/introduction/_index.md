@@ -31,39 +31,3 @@ It also provide a very simple workflow, making things easier if you plan to run 
 Blackbeard use *playbooks* to manage namespaces. A playbook is a collection of kubernetes manifest describing your stack, written as templates. A playbook also require a `default.json`, providing the default values to apply to the templates.
 
 Playbooks are created as files laid out in a particular directory tree.
-
-## Usage
-
-Blackbeard provide a CLI interface in addition to a REST API. This way, you can use it either to run automated tests in a CI pipeline or plug your own UI for manuel deployment purpose.
-
-#### Creating a new isolated env
-
-```sh
-blackbeard create -n my-feature
-```
-
-This command actually *create a namespace* and generate a JSON configuration file containing default values. This file, called an `inventory`, is where you may update the values to apply specifically to your new namespace (such as microservice version)
-
-#### Applying changes
-
-```sh
-blackbeard apply -n my-feature
-```
-
-This command apply your kubernetes manifest (modified by the values you have put in the generated `inventory` previously) to your newly created namespace
-
-#### Getting services endpoint / ports
-
-```sh
-blackbeard get services -n my-feature
-```
-
-This step will prompt a list of exposed services in the namespace. If you need to connect to a database in order to test data insertion, it is where you will find useful info.
-
-#### Getting back to previous state
-
-```sh
-blackbeard delete -n my-feature
-```
-
-Delete all generated files and delete the namespace.
