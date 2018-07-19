@@ -4,13 +4,16 @@ languageCode = "en-us"
 title = "Blackbeard"
 theme = "kraiklyn"
 
+pygmentsStyle = "dracula"
+# pygmentsStyle = "trac"
+# pygmentsUseClasses = true
 pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
+pygmentsCodefencesGuessSyntax = true
 
 [params]
 externalTitle = "Blackbeard documentation"
 sidebarColor = "blue"
-customCss = []
+customCss = ["css/syntax.css"]
 
 [[menu.shortcuts]]
 name = "Kraiklyn on Github"
