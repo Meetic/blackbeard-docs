@@ -26,6 +26,10 @@ Blackbeard helps you to create ephemeral environments where you can test a set o
 
 It also provide a very simple workflow, making things easier if you plan to run automated end-to-end testing.
 
+## How it works ?
+
+![how it works?](/img/blackbeard_mechanism.png)
+
 ## Playbook
 
 Blackbeard use *playbooks* to manage namespaces. A playbook is a collection of kubernetes manifest describing your stack, written as templates. A playbook also require a `default.json`, providing the default values to apply to the templates.
