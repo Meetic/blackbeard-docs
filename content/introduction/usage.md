@@ -7,6 +7,10 @@ weight: 15
 
 Blackbeard provide a CLI interface in addition to a REST API. This way, you can use it either to run automated tests in a CI pipeline or plug your own UI for manuel deployment purpose.
 
+{{% block note %}}
+Blackbeard requires `kubectl` to be installed and configured to work.
+{{% /block %}}
+
 #### Creating a new isolated env
 
 ```sh
