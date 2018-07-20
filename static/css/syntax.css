@@ -1,6 +1,10 @@
-section code {
+.highlight pre code {
     background:none;
-  }
+}
+
+section code {
+    background-color: #aecdfb75;
+}
 
 .highlight pre {
     padding: 10px;
