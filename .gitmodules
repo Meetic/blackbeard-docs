@@ -1,3 +1,6 @@
 [submodule "themes/kraiklyn"]
 	path = themes/kraiklyn
 	url = git@github.com:jsnjack/kraiklyn.git
+[submodule "blackbeard"]
+	path = blackbeard
+	url = git@github.com:Meetic/blackbeard.git
