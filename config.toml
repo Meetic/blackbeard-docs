@@ -1,4 +1,4 @@
-baseURL = "http://k8s-blackbeard.github.io"
+baseURL = "https://blackbeard.netlify.com/"
 languageCode = "en-us"
 
 title = "Blackbeard"
