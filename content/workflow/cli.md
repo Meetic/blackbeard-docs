@@ -21,7 +21,7 @@ blackbeard create -n {namespace name}
 
 * create a Kubernetes namespace;
 * generate a `inventory` file for the newly created namespace;
-* generate a set of yml `manifest` based on the playbook `template`.
+* generate a set of yml `manifest` based on the playbook `templates`.
 
 ### Update values & apply changes
 
@@ -55,10 +55,9 @@ Exemple :
 Namespace	Phase	Status	Managed
 backend		Active	100%	false
 john    	Active	73% 	true
-default		Active	0%	    false
-kevin   	Active	73%	    false
-team1		Active	73%	    true
-kube-system	Active	100%	false
+default		Active	0%    false
+kevin   	Active	73%   false
+team1	   	Active	73%   true
 ```
 
 ### Get useful informations about services
