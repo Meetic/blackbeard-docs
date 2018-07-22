@@ -4,24 +4,26 @@ languageCode = "en-us"
 title = "Blackbeard"
 theme = "kraiklyn"
 contentDir = "./blackbeard/docs/"
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+googleAnalytics = "UA-122674263-1"
 
 pygmentsStyle = "dracula"
-# pygmentsStyle = "trac"
-# pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
 [params]
-externalTitle = "Blackbeard documentation"
+externalTitle = "Contributing to Blackbeard"
 sidebarColor = "blue"
 customCss = ["css/syntax.css"]
 
 [[menu.shortcuts]]
-name = "Kraiklyn on Github"
-url = "https://github.com/jsnjack/kraiklyn"
+name = "Blackbeard on Github"
+url = "https://github.com/Meetic/blackbeard"
 weight = 10
 
 [[menu.shortcuts]]
-name = "Hugo docs"
-url = "https://gohugo.io/documentation/"
+name = "Contribution guide"
+url = "https://github.com/Meetic/blackbeard/blob/master/CONTRIBUTING.MD"
 weight = 20
